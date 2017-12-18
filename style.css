@@ -136,6 +136,29 @@ main{
     padding: 30px;
 }
 
+.gallery {
+    padding: 30px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    background-color: white;
+    
+}
+
+.project {
+    border: dotted 1px black;
+}
+
+.favs {
+    background-color: #f1f0ed;
+    text-align: center;
+}
+
 footer {
     display: flex;
     flex-direction: column;
