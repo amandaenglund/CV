@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    }
+
+header {
+    background-color: gray;
+}
+    
+main{ 
+    flex: 1 0 auto;
+    background-color: lightgray;
+    
+    }
+
+footer {
+    background-color: rgb(242, 242, 242);
+    }
