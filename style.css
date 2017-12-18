@@ -132,6 +132,8 @@ main{
 
 .curriculum {
     background-color: rgb(247, 232, 234);
+    text-align: center;
+    padding: 30px;
 }
 
 footer {
