@@ -34,6 +34,12 @@ h4 {
     
 }
 
+h5 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 p {
     font-family: 'Raleway', sans-serif;
     line-height: 30px;
@@ -78,6 +84,7 @@ header {
 
 }
 
+/*Navbar Style*/
 .navbar {
     font-family: 'Raleway', sans-serif;  
     background-color: white;
@@ -88,13 +95,12 @@ ul {
     list-style-type: none;
     margin-left: 60px;    
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: flex-start;
+
 }
 
 li {
-    flex: 1 auto;
+    flex: 1;
+    height: auto;
 }
 
 li a {
@@ -111,6 +117,7 @@ li a:hover {
     
 }
 
+/*Hero image*/
 .hero {
     background: url(../img/hero_.jpeg) no-repeat 50% 50%;
     height: 100vh;
@@ -145,34 +152,48 @@ main{
 }
 
 .gallery {
+    display: flex;
+    
     padding: 30px;
     text-align: center;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-
     background-color: white;
-    
 }
 
 .project {
-    border: dotted 1px black;
+    flex: 1;
+    height: auto;
+
+    border: double 5px black;
+    margin: 50px;
+    padding: 20px;
 }
 
 .favs {
     background-color: rgb(247, 232, 234);
     text-align: center;
-    padding: 50px 0px;
+    padding: 20px 0px 50px 0px;
+}
+
+.favs a {
+    padding: 0px 20px 50px 20px;
+}
+
+.quote {
+    background-color: darkgray;
+
+}
+
+.quote h5 {
+    color: white;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 12px;
 }
 
 footer {
     display: flex;
     flex-direction: column;
 
-    
     background-color: rgb(242, 242, 242);
     }
 
@@ -182,7 +203,6 @@ footer {
 
     background-color: #f1f0ed;
     /*background-color: rgb(248, 234, 237);*/
-    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -200,6 +220,8 @@ form {
     padding: 50px;
     border-radius: 50px;
     color: #acaaa3;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 
@@ -252,7 +274,7 @@ input[type=submit]:hover {
 }
 
 
-
+/*Footer Style*/
 
 .social {
     display: flex;
@@ -265,8 +287,8 @@ input[type=submit]:hover {
     flex: 1;
     height: auto;
     
-    text-align: center;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
     letter-spacing: 2px;
      
 }
