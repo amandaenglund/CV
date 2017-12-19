@@ -151,6 +151,10 @@ main{
     padding: 30px;
 }
 
+.curriculum img {
+    width: 70%;
+}
+
 .gallery {
     display: flex;
     
@@ -176,6 +180,10 @@ main{
 
 .favs a {
     padding: 0px 20px 50px 20px;
+}
+
+.favPic {
+    width: 15%;
 }
 
 .quote {
@@ -310,3 +318,32 @@ input[type=submit]:hover {
     display: table;
     clear: both;
 }
+
+
+@media (max-width: 400px) {
+
+    ul {
+        display: block;
+        padding: 10px 0px;
+        margin: 0;
+        text-align: center;
+      }
+    
+    li {
+        padding: 5px 0px;
+    }
+
+    .gallery {
+        display: block;
+    }
+
+    .favpic {
+        padding: 5px 0px;
+    }
+
+      .social {
+        display: block;
+      }
+  
+
+  }
