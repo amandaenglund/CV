@@ -46,15 +46,20 @@ p {
     
 }
 
+a {
+    color: rgb(29, 27, 27);
+}
 a:visited {
     color: rgb(29, 27, 27);
 }
 
+/*Allt i body*/
 .page {
     display: flex;
     flex-direction: column;
     }
 
+/*Header*/
 header {
     display: flex;
     flex-direction: column;
@@ -129,7 +134,7 @@ li a:hover {
 }
     
 
-    
+/*Innehåll på sidan*/ 
 main{ 
     flex: 1 0 auto;
 
@@ -144,6 +149,8 @@ main{
     width: 50%;
     margin: auto;
 }
+
+
 
 .curriculum {
     background-color: rgb(247, 232, 234);
@@ -188,7 +195,7 @@ main{
 
 .quote {
     background-color: darkgray;
-
+    
 }
 
 .quote h5 {
@@ -196,47 +203,43 @@ main{
     font-size: 1em;
     font-weight: 100;
     letter-spacing: 12px;
+    line-height: 200%;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
 
-    background-color: rgb(242, 242, 242);
-    }
+/*CONTACT AREA*/
 
-/*Contact Area*/
 .contact {
-    text-align: center;
-
     background-color: #f1f0ed;
     /*background-color: rgb(248, 234, 237);*/
-
 }
 
 .contactWrapper {
-    border: solid 2px  #acaaa3;
-    width: 70%;
+    border: solid 2px #acaaa3;
+    width: 60%;
     margin: 60px auto;
     color: #acaaa3;
 }
 
-/*Contactform*/
+/*Contact form*/
 form {
     max-width: 60vw;
     margin: auto;    
     padding: 50px;
-    border-radius: 50px;
     color: #acaaa3;
     font-family: 'Raleway', sans-serif;
+}
 
+.keep {
+    font-size: 3em;
+    margin-bottom: 0px;
 }
 
 
-input[type=text] {
+input[type=text], textarea {
     width: 100%;
     height: 30px;
-    padding: 5px 20px;
+    padding: 3px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     background-color: white; 
@@ -253,15 +256,12 @@ input[type=number] {
     margin: 8px 0;
     box-sizing: border-box;
     background-color: white;
-    
 }
 
 textarea {
-    width: 100%;
     height: 100px;
     border: 1px solid  #acaaa3;
 }
-
 
 
 /*knappen på kontaktformuläret*/
@@ -273,7 +273,6 @@ input[type=submit] {
     border: 1px solid  #acaaa3;
     border-radius: 4px;
     cursor: pointer;
-
 }
 
 input[type=submit]:hover {
@@ -282,12 +281,20 @@ input[type=submit]:hover {
 }
 
 
-/*Footer Style*/
+/*FOOTER AREA*/
 
-.social {
+footer {
     display: flex;
+    flex-direction: column;
 
     background-color: darkgray;
+    text-align: center;
+
+    }
+
+.footersocial {
+    display: flex;
+
     padding: 30px;
 }
 
@@ -296,7 +303,6 @@ input[type=submit]:hover {
     height: auto;
     
     font-family: 'Raleway', sans-serif;
-    text-align: center;
     letter-spacing: 2px;
      
 }
@@ -306,7 +312,7 @@ input[type=submit]:hover {
     font-size: 0.8em;
 }
 
-.fa {
+.social {
     border: solid 1px rgb(29, 27, 27);
     padding: 5px;
     margin: 0px 5px;  
@@ -319,7 +325,7 @@ input[type=submit]:hover {
     clear: both;
 }
 
-
+/*Mobilanpassad*/
 @media (max-width: 400px) {
 
     ul {
@@ -333,6 +339,19 @@ input[type=submit]:hover {
         padding: 5px 0px;
     }
 
+    .macpic {
+        width: 10%;
+    }
+    
+    .name {
+        font-size: 1.3em;
+    }
+
+    .bio {
+        width: 80%;
+        margin: auto;
+    }
+
     .gallery {
         display: block;
     }
@@ -341,9 +360,16 @@ input[type=submit]:hover {
         padding: 5px 0px;
     }
 
+    .quote h5 {
+        padding: 5px 15px;
+    }
+
       .social {
         display: block;
       }
   
+    .keep {
+        font-size: 1.5em;
+    }
 
   }
