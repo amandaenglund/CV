@@ -162,6 +162,12 @@ main{
     width: 70%;
 }
 
+.checkout {
+    font-size: 1.2em;
+    letter-spacing: 10px;
+    line-height: 200%;
+}
+
 .gallery {
     display: flex;
     
@@ -294,6 +300,7 @@ footer {
 
 .footersocial {
     display: flex;
+   
 
     padding: 30px;
 }
@@ -352,6 +359,10 @@ footer {
         margin: auto;
     }
 
+    .checkout {
+        font-size: 1em;
+    }
+
     .gallery {
         display: block;
     }
@@ -364,9 +375,9 @@ footer {
         padding: 5px 15px;
     }
 
-      .social {
+    .footersocial {
         display: block;
-      }
+    }
   
     .keep {
         font-size: 1.5em;
