@@ -22,6 +22,26 @@
     gtag('config', 'UA-108240026-1');
     </script>
 
+        <!-- JS för textslide -->
+    <script>$(document).ready(function(){
+    
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("cities");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1} 
+        x[slideIndex-1].style.display = "block"; 
+        setTimeout(carousel, 3000); // Change image every 3 seconds
+    }
+        
+    });</script>
+
 </head>
 
 <body>
@@ -57,8 +77,21 @@
                 I recently moved back to Sweden after 15 years abroad, done living life on a beach with a mojito (beleive it or not..), and fully focused on pursuing a so called grown up life style, and that's how I ended up here ;)</p>
             <p>10 years ago i graduated as an interior designer, and I ran my own design and whole sale business for several years. I've also got long experience in the hotel and restaurant business. My CV is extensive and interesting.</p>
             <p>I believe life is all about experiencing and learing, and now I'm ready for new adventures!</p>
-            <br/>
             </div> <!--stänger bio-->
+
+            <div class="places">
+                <h4 style="padding-bottom: 0px; margin: 5px 0px 0px 0px;">Places I've called home</h4>
+                <h5 class="cities">Casablanca</h5>
+                <h5 class="cities">Madrid</h5>
+                <h5 class="cities">London</h5>
+                <h5 class="cities">Marbella</h5>
+                <h5 class="cities">Göteborg</h5>
+                <h5 class="cities">Gran Canaria</h5>
+                <h5 class="cities">Barcelona</h5>
+                <h5 class="cities">Málaga</h5>
+                <h5 class="cities">Tenerife</h5>
+            </div>  <!--stänger quote-->  
+
 
             <a name="cv"></a>
             <div class="curriculum">
@@ -71,14 +104,17 @@
             <div class="gallery">
                 <div class="project">
                     <h4>project 1</h4>
+                    <h5><a href="http://boattrips.se" target="_blank">boattrips.se</a></h5>
                     <img src="img/arrow.png" width="70%;"/>
                 </div>
                 <div class="project">
                     <h4>project 2</h4>
+                    <h5><a href=#>url.com</a></h5>
                     <img src="img/arrow.png" width="70%;"/>
                 </div>
                 <div class="project">
                     <h4>project 3</h4>
+                    <h5><a href=#>url.com</a></h5>
                     <img src="img/arrow.png" width="70%;"/>
                 </div>
             </div> 

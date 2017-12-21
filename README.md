@@ -1,10 +1,11 @@
 # CV
 Amanda Englund CV
 
-Jag har börjat om 4-5 gånger med mitt CV och är nu väldigt nöjd med designen. Den är feminin, rätt clean, och lite bloggig sådär. När jag bygger vidare i framtiden så kommer jag försöka imponera med mina future JS-skills och även få kontaktformuläret att fungera med PHP. Jag kommer också lägga in fler länkar till projekt som jag är nöjd med (har förberett place holders för det).
+Jag har börjat om 4-5 gånger med mitt CV och är nu väldigt nöjd med designen. Den är feminin, rätt clean, och lite bloggig sådär. När jag bygger vidare i framtiden så kommer jag forsätta imponera med mina future JS-skills och även få kontaktformuläret att fungera med PHP. Jag kommer också lägga in fler länkar till projekt som jag är nöjd med (har förberett place holders för det).
 
 TEKNIK
 Jag har framförallt använt mig av HTML & CSS. Jag använder flexbox för mobilanpassning.
+Jag lade in lite Java Script för text sliden.
 Google Fonts för typsnitt och FontAwesome för iconer.
 Har lagt in en Google Analytics tag för spårning av statistik.
 Det ligger en JQuery länk inne så jag lätt kan implementera det i framtiden.
