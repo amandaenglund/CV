@@ -1,7 +1,7 @@
 # CV
 Amanda Englund CV
 
-Jag har börjat om 4-5 gånger med mitt CV och är nu väldigt nöjd med designen. Den är feminin, rätt clean, och lite bloggig sådär. När jag bygger vidare i framtiden så kommer jag forsätta imponera med mina future JS-skills och även få kontaktformuläret att fungera med PHP. Jag kommer också lägga in fler länkar till projekt som jag är nöjd med (har förberett place holders för det).
+Jag har börjat om 4-5 gånger med mitt CV och är nu väldigt nöjd med designen. Den är feminin, rätt clean, och lite bloggig sådär. När jag bygger vidare i framtiden så kommer jag fortsätta imponera med mina future JS-skills och även få kontaktformuläret att fungera med PHP. Jag kommer också lägga in fler länkar till projekt som jag är nöjd med (har förberett place holders för det).
 
 TEKNIK
 Jag har framförallt använt mig av HTML & CSS. Jag använder flexbox för mobilanpassning.
@@ -17,7 +17,7 @@ och hittade sen ett foto som jag gillade extra mycket och hade som riktlinje:
 https://www.pinterest.se/pin/150307706294740693/
 Jag hittade en snygg hero image på: https://unsplash.com
 Därefter valde jag ut ett färgschema i dova färger som jag tog upp från hero imagen för att få en röd tråd genom sidan.
-För kontaktformuläret insprerades jag färgmässigt av denna bild:
+För kontaktformuläret inspirerades jag färgmässigt av denna bild:
 http://freefrontend.com/assets/img/css-forms/vintage-inspired-contact-form.png
 Jag valde ut två stycken fonts, en artistisk serif för rubriker och en minimalistisk sans serif för brödtext och mindre rubriker.
 Eftersom jag inte har så mycket innehåll så valde jag att köra på en One-Page design med ankare i länkarna. Den är mobilanpassad och vissa rutnät blir till rader när skärmen är mindre. Fotona följer med och blir mindre.
